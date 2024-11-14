@@ -7,6 +7,8 @@ import scrapy
 
 
 class DouItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    title = scrapy.Field()
+    company = scrapy.Field()
+    salary = scrapy.Field()
+    description = scrapy.Field()
+    technologies = scrapy.Field()
